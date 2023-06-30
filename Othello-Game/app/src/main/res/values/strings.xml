@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Othello</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_single">SinglePlayer</string>
+    <string name="button_multi">MultiPlayer</string>
+</resources>

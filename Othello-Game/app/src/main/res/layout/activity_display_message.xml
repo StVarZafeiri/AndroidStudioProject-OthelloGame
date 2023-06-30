@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMessageActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black"
+        android:focusableInTouchMode="false"
+        app:columnCount="8"
+        app:columnOrderPreserved="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:rowCount="8">
+
+        <ImageView
+            android:id="@+id/i00"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="00"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/i01"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="01" />
+
+        <ImageView
+            android:id="@+id/i02"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="02" />
+
+        <ImageView
+            android:id="@+id/i03"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="03" />
+
+        <ImageView
+            android:id="@+id/i04"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="04" />
+
+        <ImageView
+            android:id="@+id/i05"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="05" />
+
+        <ImageView
+            android:id="@+id/i06"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="06" />
+
+        <ImageView
+            android:id="@+id/i07"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="07" />
+
+        <ImageView
+            android:id="@+id/i10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="10" />
+
+        <ImageView
+            android:id="@+id/i11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="11" />
+
+        <ImageView
+            android:id="@+id/i12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="12" />
+
+        <ImageView
+            android:id="@+id/i13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="13" />
+
+        <ImageView
+            android:id="@+id/i14"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="14" />
+
+        <ImageView
+            android:id="@+id/i15"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="15" />
+
+        <ImageView
+            android:id="@+id/i16"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="16" />
+
+        <ImageView
+            android:id="@+id/i17"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="17" />
+
+        <ImageView
+            android:id="@+id/i20"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="20" />
+
+        <ImageView
+            android:id="@+id/i21"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="21" />
+
+        <ImageView
+            android:id="@+id/i22"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="22" />
+
+        <ImageView
+            android:id="@+id/i23"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="23" />
+
+        <ImageView
+            android:id="@+id/i24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="24" />
+
+        <ImageView
+            android:id="@+id/i25"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="25" />
+
+        <ImageView
+            android:id="@+id/i26"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="26" />
+
+        <ImageView
+            android:id="@+id/i27"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="27" />
+
+        <ImageView
+            android:id="@+id/i30"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="30" />
+
+        <ImageView
+            android:id="@+id/i31"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="31" />
+
+        <ImageView
+            android:id="@+id/i32"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="32" />
+
+        <ImageView
+            android:id="@+id/i33"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="33" />
+
+        <ImageView
+            android:id="@+id/i34"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="34" />
+
+        <ImageView
+            android:id="@+id/i35"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="35" />
+
+        <ImageView
+            android:id="@+id/i36"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="36" />
+
+        <ImageView
+            android:id="@+id/i37"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="37" />
+
+        <ImageView
+            android:id="@+id/i40"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="40" />
+
+        <ImageView
+            android:id="@+id/i41"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="41" />
+
+        <ImageView
+            android:id="@+id/i42"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="42" />
+
+        <ImageView
+            android:id="@+id/i43"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="43" />
+
+        <ImageView
+            android:id="@+id/i44"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="44" />
+
+        <ImageView
+            android:id="@+id/i45"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="45" />
+
+        <ImageView
+            android:id="@+id/i46"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="46" />
+
+        <ImageView
+            android:id="@+id/i47"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="47" />
+
+        <ImageView
+            android:id="@+id/i50"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="50" />
+
+        <ImageView
+            android:id="@+id/i51"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="51" />
+
+        <ImageView
+            android:id="@+id/i52"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="52" />
+
+        <ImageView
+            android:id="@+id/i53"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="53" />
+
+        <ImageView
+            android:id="@+id/i54"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="54" />
+
+        <ImageView
+            android:id="@+id/i55"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="55" />
+
+        <ImageView
+            android:id="@+id/i56"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="56" />
+
+        <ImageView
+            android:id="@+id/i57"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="57" />
+
+        <ImageView
+            android:id="@+id/i60"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="60" />
+
+        <ImageView
+            android:id="@+id/i61"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="61" />
+
+        <ImageView
+            android:id="@+id/i62"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="62" />
+
+        <ImageView
+            android:id="@+id/i63"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="63" />
+
+        <ImageView
+            android:id="@+id/i64"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="64" />
+
+        <ImageView
+            android:id="@+id/i65"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="65" />
+
+        <ImageView
+            android:id="@+id/i66"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="66" />
+
+        <ImageView
+            android:id="@+id/i67"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="67" />
+
+        <ImageView
+            android:id="@+id/i70"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="70" />
+
+        <ImageView
+            android:id="@+id/i71"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="71" />
+
+        <ImageView
+            android:id="@+id/i72"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="72" />
+
+        <ImageView
+            android:id="@+id/i73"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="73" />
+
+        <ImageView
+            android:id="@+id/i74"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="74" />
+
+        <ImageView
+            android:id="@+id/i75"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="75" />
+
+        <ImageView
+            android:id="@+id/i76"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="76" />
+
+        <ImageView
+            android:id="@+id/i77"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/green"
+            android:onClick="onClick"
+            android:tag="77" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="newgame"
+        android:text="New game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="44dp"
+        android:clickable="false"
+        android:ems="10"
+        android:text="BLACK - WHITE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="153dp"
+        android:layout_height="33dp"
+        android:text="score here"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
