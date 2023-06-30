@@ -195,7 +195,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         img.setContentDescription("transparent");
                                         break;
@@ -205,8 +204,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                     break;
                                 }
                             }
-                            //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
-                           // img.setImageResource(R.drawable.ic_baseline_lens_24);
                         }
                     }
 
@@ -220,7 +217,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         img.setContentDescription("transparent");
                                         break;
@@ -243,7 +239,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         img.setContentDescription("transparent");
                                         break;
@@ -266,7 +261,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         img.setContentDescription("transparent");
                                         break;
@@ -289,7 +283,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         img.setContentDescription("transparent");
                                         break;
@@ -312,7 +305,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         img.setContentDescription("transparent");
                                         break;
@@ -335,7 +327,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         img.setContentDescription("transparent");
                                         break;
@@ -358,7 +349,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         img.setContentDescription("transparent");
                                         break;
@@ -397,7 +387,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
             String str = String.valueOf(view.getTag());
             int i = str.charAt(0) - '0';
             int j = str.charAt(1) - '0';
-            Log.i(TAG, "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt " + str + " " + i + " " + j);
             //sleep(5000);
             change(i, j, "black", "white");
             //Thread.sleep(1000);
@@ -540,14 +529,12 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         //img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         //img.setContentDescription("transparent");
                                         if(ownColor == "white") {
                                             img1.setImageResource(R.drawable.ic_white);
                                             img1.setContentDescription("white");
                                             for(k = 2; k < 8; k++) {
-                                                Log.i(TAG,"tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttxxxx "+ k);
                                                 id1= "i"+ (char)(i+k+'0')+ (char)(j+'0');
                                                 resID = getResources().getIdentifier(id1, "id", getPackageName());
                                                  img9 = (ImageView) findViewById(resID);
@@ -570,7 +557,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                             img1.setImageResource(R.drawable.ic_black);
                                             img1.setContentDescription("black");
                                             for(k = 2; k < 8; k++) {
-                                                Log.i(TAG,"tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttxxxx "+ k);
                                                 id1= "i"+ (char)(i+k+'0')+ (char)(j+'0');
                                                 resID = getResources().getIdentifier(id1, "id", getPackageName());
                                                 img9 = (ImageView) findViewById(resID);
@@ -596,8 +582,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                     break;
                                 }
                             }
-                            //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
-                            // img.setImageResource(R.drawable.ic_baseline_lens_24);
                         }
                     }
 
@@ -611,9 +595,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
-                                        //img.setImageResource(R.drawable.ic_baseline_lens_24);
-                                        //img.setContentDescription("transparent");
                                         if(ownColor == "white") {
                                             img2.setImageResource(R.drawable.ic_white);
                                             img2.setContentDescription("white");
@@ -682,9 +663,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
-                                        //img.setImageResource(R.drawable.ic_baseline_lens_24);
-                                        //img.setContentDescription("transparent");
                                         if(ownColor == "white") {
                                             img3.setImageResource(R.drawable.ic_white);
                                             img3.setContentDescription("white");
@@ -752,9 +730,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
-                                        //img.setImageResource(R.drawable.ic_baseline_lens_24);
-                                        //img.setContentDescription("transparent");
                                         if(ownColor == "white") {
                                             img4.setImageResource(R.drawable.ic_white);
                                             img4.setContentDescription("white");
@@ -822,7 +797,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         //img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         //img.setContentDescription("transparent");
                                         if(ownColor == "white") {
@@ -889,7 +863,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         //img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         //img.setContentDescription("transparent");
                                         if(ownColor == "white") {
@@ -958,7 +931,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         //img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         //img.setContentDescription("transparent");
                                         if(ownColor == "white") {
@@ -1025,7 +997,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
                                 if(img9 != null && img9.getDrawable() != null) {
                                     String imageName1 = (String) img9.getContentDescription();
                                     if(imageName1 == ownColor) {
-                                        //Log.i(TAG,"ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "+ id1 +" "+ resID+ imageName);
                                         //img.setImageResource(R.drawable.ic_baseline_lens_24);
                                         //img.setContentDescription("transparent");
                                         if(ownColor == "white") {
