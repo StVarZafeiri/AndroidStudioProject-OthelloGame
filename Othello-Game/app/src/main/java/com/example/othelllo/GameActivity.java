@@ -16,9 +16,9 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-public class DisplayMessageActivity extends AppCompatActivity {
+public class GameActivity extends AppCompatActivity {
     private static final String TAG = "MyActivity";
-    //private static final String TAG = "DisplayMessageActivity";
+    //private static final String TAG = "GameActivity";
     public void newgame(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
